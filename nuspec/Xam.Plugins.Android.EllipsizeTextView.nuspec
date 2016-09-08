@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Xam.Plugins.Android.EllipsizeTextView</id>
+        <version>1.0.2</version>
+        <title>EllipsizeTextView for Xamarin.Android</title>
+        <authors>Martijn van Dijk</authors>
+        <owners>Martijn van Dijk</owners>
+        <licenseUrl>https://github.com/martijn00/EllipsizeTextViewXamarin/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/martijn00/EllipsizeTextViewXamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/martijn00/EllipsizeTextViewXamarin/master/icon_ellipsizetextview.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>EllipsizeTextView extends TextView for Xamarin Android</description>
+        <summary>The EllipsizeTextView extends TextView, support omit (Ellipsize/Ellipsis) redundant characters in multiple lines situtation.</summary>
+        <tags>xamarin, monodroid, C#, xamarin.android, android, EllipsizeTextView, Ellipsize, TextView</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\EllipsizeTextView\bin\Release\EllipsizeTextView.dll" target="lib\MonoAndroid\EllipsizeTextView.dll" />
+    </files>
+</package>
